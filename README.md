@@ -203,7 +203,7 @@ erDiagram
 | --- | --- | --- |
 | 1 | 8 таблиц, ключи и ограничения, тестовые данные, 1500 сгенерированных продаж, ON DELETE у всех связей | `demo/lab1.sql` |
 | 2 | 16 запросов: JOIN, группировка, «сироты», подзапросы, изменение данных, топ-3 по месяцам, накопительная выручка, динамика к прошлому месяцу, календарь продаж | `demo/lab2.sql` |
-| 3 | ... | `demo/lab3.sql` |
+| 3 | Представления `v_sale_card`, `v_prescription_balance`, отчёт `mv_monthly_revenue`; функции `sale_total`, `prescription_remaining`, `find_sales`; продажа по рецепту `sell_by_prescription`; триггер правила «рецептурное только по рецепту», `updated_at` у препаратов, журнал `sales_log` и `sale_state_at` | `demo/lab3.sql` |
 | 4 | ... | `demo/lab4.sql`, `demo/race.sql`, `demo/race_fixed.sql` |
 | 5 | ... | `demo/lab5.sql` |
 
