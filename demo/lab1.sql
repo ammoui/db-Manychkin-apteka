@@ -2,8 +2,8 @@
 -- Запуск: dbcheck run demo/lab1.sql, или в psql: \i /demo/lab1.sql
 -- Файл без BEGIN/COMMIT, поэтому всё откатывается и база не меняется.
 
--- 1. Таблицы на месте: 8 таблиц
--- expect: rows 8
+-- 1. Таблицы на месте: 8 таблиц лабы 1 (следующие лабы добавляют свои)
+-- expect: rows >= 8
 SELECT table_name FROM information_schema.tables WHERE table_schema = 'public' ORDER BY 1;
 
 -- 2. Рецепт с уже существующим номером: ошибка UNIQUE
