@@ -9,4 +9,4 @@ main_table = "sales"
 [lab4]
 # Бизнес-операция, которую должна уметь роль app_writer. Чекер выполнит её под app_writer и откатит.
 # Пример: writer_call = "SELECT place_order(1, 2)"
-writer_call = ""
+writer_call = "SELECT sell_by_prescription(8, 10, 1, 'card')"
